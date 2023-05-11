@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Drop down manu</title>
+    <title>card project</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="shortcut icon" href="images/letter-l.png" type="image/x-icon" />
     <link
@@ -16,47 +16,55 @@
     />
   </head>
   <body>
-    <header>
-      <nav class="navBar">
-        <figure class="logo">
-          <img
-            src="images/71766-logo-vector-design-illustration-phoenix-hd-image-free-png.png"
-            alt="logopic"
-            class="logoImage"
-          />
-        </figure>
-        <ul class="navLinks">
-          <li>
-            <a href="#">HOME</a>
-          </li>
-          <li>
-            <a href="#">ABOUT</a>
-          </li>
-          <li>
-            <a href="#">SERVICES</a>
-            <ul class="subMenu">
-              <li>
-                <a href="#">Web Development</a>
-              </li>
-              <li>
-                <a href="#">Graphic Design</a>
-              </li>
-              <li>
-                <a href="#">SEO</a>
-              </li>
-              <li>
-                <a href="#">App Development</a>
-              </li>
-            </ul>
-          </li>
-
-          <li>
-            <a href="#">CONTACT</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main></main>
+    <header></header>
+    <main>
+      <section class="cardContainer">
+        <div class="correctCard">
+          <div class="cardHeader">
+            <figure>
+              <i class="fa-solid fa-check"></i>
+            </figure>
+          </div>
+          <div class="cardBody">
+            <h2>Successful</h2>
+            <p>
+              Here something is successful. Add the description to explain the
+              card.
+            </p>
+            <button>Go to Dashboard</button>
+          </div>
+        </div>
+        <div class="inCompleteCard">
+          <div class="cardHeader">
+            <figure>
+              <i class="fa-solid fa-exclamation"></i>
+            </figure>
+          </div>
+          <div class="cardBody">
+            <h2>Incomplete</h2>
+            <p>
+              Here something incomplete. Add the description to explain the
+              card.
+            </p>
+            <button>Go to Dashboard</button>
+          </div>
+        </div>
+        <div class="failedCard">
+          <div class="cardHeader">
+            <figure>
+              <i class="fa-solid fa-x"></i>
+            </figure>
+          </div>
+          <div class="cardBody">
+            <h2>Failed</h2>
+            <p>
+              Here something is failed. Add the description to explain the card.
+            </p>
+            <button>Go to Dashboard</button>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
